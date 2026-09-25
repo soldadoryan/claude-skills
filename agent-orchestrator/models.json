@@ -1,0 +1,43 @@
+{
+  "last_updated": "2026-09-25",
+  "note": "Registro de modelos que a skill pode escolher. Atualizado apenas com aprovação do usuário.",
+  "models": [
+    {
+      "id": "claude-fable-5-1",
+      "alias": "fable",
+      "family": "fable",
+      "name": "Claude Fable 5.1",
+      "tier": 4,
+      "subagent": "deep-architect",
+      "min_claude_code": "2.1.257"
+    },
+    {
+      "id": "claude-opus-5-5",
+      "alias": "opus",
+      "family": "opus",
+      "name": "Claude Opus 5.5",
+      "tier": 3,
+      "subagent": "planner",
+      "min_claude_code": "2.1.280"
+    },
+    {
+      "id": "claude-sonnet-5",
+      "alias": "sonnet",
+      "family": "sonnet",
+      "name": "Claude Sonnet 5",
+      "tier": 2,
+      "subagent": "implementer",
+      "min_claude_code": "2.1.197"
+    },
+    {
+      "id": "claude-haiku-4-5-20251001",
+      "alias": "haiku",
+      "family": "haiku",
+      "name": "Claude Haiku 4.5",
+      "tier": 1,
+      "subagent": "quick-worker",
+      "min_claude_code": null
+    }
+  ],
+  "dismissed": []
+}
